@@ -1925,7 +1925,7 @@ input, select, textarea {
 		text-align: center;
 	}
 
-	header p {
+	header p, .subheader {
 		color: #a8b0b3;
 		letter-spacing: 0.05em;
 		text-transform: uppercase;
