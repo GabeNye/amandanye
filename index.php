@@ -17,7 +17,7 @@
 			<section id="header">
 				<header class="major">
 					<h1>Amanda Nye, LMHC</h1>
-					<p>UNDER CONSTRUCTION</a></p>
+					<p>Pull the trigger, bitch.</a></p>
 				</header>
 				<div class="container">
 					<ul class="actions special">
@@ -81,73 +81,16 @@
 					<span class="image fit primary"><img src="images/pic03.jpg" alt="" /></span>
 					<div class="content">
 						<header class="major">
-							<h2>ARE WE A GOOD MATCH?</h2>
+							<h2>One more thing</h2>
 						</header>
-						<p>
-							<h4>WHO <strong>IS</strong> A GOOD FIT FOR MY PRACTICE?</h4>
-							<p>
-								Finding the right therapist to fit you is important! I notice I work best with clients with these issues:
-								<ul class="align-left">
-									<li>Peer or romantic relationship challenges</li>
-									<li>Anxiety</li>
-									<li>Depression</li>
-									<li>Substance abuse</li>
-									<li>Pregnancy, postpartum</li>
-									<li>Life transitions</li>
-									<li>Work or academic stress</li>
-									<li>Identity</li>
-								</ul>
-							</p>
-							<p>
-								<h4>WHO <strong>IS NOT</strong> A GOOD FIT FOR MY PRACTICE?</h4>
-								<p>
-									Because of the limits of my private practice, people struggling with these specific issues may be better served elsewhere:
-									<ul class="align-left">
-										<li>High risk for suicide or serious self-harm</li>
-										<li>History of psychiatric inpatient hospitalization</li>
-										<li>History of suicidal thoughts, attempts, or self harm</li>
-										<li>Severe eating disorders</li>
-										<li>Anyone requiring more than weekly contact with their therapist</li>
-									</ul>
-								</p>
-							</p>
-						</p>
-					</div>
-					<a href="#footer" class="goto-next scrolly">Next</a>
-				</div>
-			</section>
-
-			<section id="four" class="main special">
-				<div class="container">
-					<span class="image fit primary"><img src="images/pic03.jpg" alt="" /></span>
-					<div class="content">
-						<header class="major">
-							<h2>BECOMING A CLIENT</h2>
-						</header>
-						<p>
-								<h4>SCHEDULING APPOINTMENTS</h4>
-								<p>
-									I meet with most clients weekly, preferably at the same time each week. We can decide to meet more or less frequently as we go depending on the therapy goals. I offer 24 hour online scheduling and a client portal for your convenience, as well as teletherapy if you are struggling to make it into the office. A cancellation fee of $80 is charged if a session is canceled without 24 hour notice, except under exceptional circumstances such as hospitalization.
-								</p>
-							</p>
-							<p>
-								<h4>INSURANCES I ACCEPT</h4>
-								<p>
-									<ul class="align-left">
-										<li>Blue Cross, Blue Shield</li>
-										<li>Masshealth/MBHP</li>
-										<li>Out of pocket payment	</li>
-									</ul>
-								</p>
-							</p>
-						</p>
+						<p>Aliquam ante ac id. Adipiscing interdum lorem praesent fusce pellentesque arcu feugiat. Consequat sed ultricies rutrum. Sed adipiscing eu amet interdum lorem blandit vis ac commodo aliquet integer vulputate phasellus lorem ipsum dolor lorem magna consequat sed etiam adipiscing interdum.</p>
 					</div>
 					<a href="#footer" class="goto-next scrolly">Next</a>
 				</div>
 			</section>
 
 		<!-- Four -->
-		
+		<!--
 			<section id="four" class="main">
 				<div class="container">
 					<div class="content">
@@ -465,7 +408,7 @@ print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
 					<a href="#footer" class="goto-next scrolly">Next</a>
 				</div>
 			</section>
-		
+		-->
 
 		<!-- Footer -->
 			<section id="footer">
@@ -473,13 +416,6 @@ print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
 					<header class="major">
 						<h2>Get in touch</h2>
 					</header>
-					<p style="text-align:left;">
-						Some helpful things to include in your email:
-						<ul style="text-align:left; margin-top: -20px;">
-							<li>Why are you seeking therapy?</li>
-							<li>Are you planning to use insurance or pay out of pocket?<br><i>Note: I am in network with BCBS & MBHP</i></li>
-						</ul>
-					</p>
 					<form method="post" action="#">
 						<div class="row gtr-uniform">
 							<div class="col-6 col-12-xsmall"><input type="text" name="name" id="name" placeholder="Name" /></div>
@@ -495,20 +431,15 @@ print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
 				</div>
 				<footer>
 					<ul class="icons">
-						<!-- <li><a href="#" class="icon alt fa-twitter"><span class="label">Twitter</span></a></li> -->
-						<!-- <li><a href="#" class="icon alt fa-facebook"><span class="label">Facebook</span></a></li> -->
+						<li><a href="#" class="icon alt fa-twitter"><span class="label">Twitter</span></a></li>
+						<li><a href="#" class="icon alt fa-facebook"><span class="label">Facebook</span></a></li>
 						<li><a href="#" class="icon alt fa-instagram"><span class="label">Instagram</span></a></li>
-						<!-- <li><a href="#" class="icon alt fa-dribbble"><span class="label">Dribbble</span></a></li> -->
+						<li><a href="#" class="icon alt fa-dribbble"><span class="label">Dribbble</span></a></li>
 						<li><a href="#" class="icon alt fa-envelope"><span class="label">Email</span></a></li>
 					</ul>
 					<ul class="copyright">
-						<li>&copy;
-							<script type="text/JavaScript">
-								document.write(new Date().getFullYear());
-							</script>
-						</li>
-						<li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
-						<li>Images: <a href="http://unsplash.com">Unsplash</a></li>
+						<li>&copy; <?php echo date("Y"); ?>
+</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li><li>Demo Images: <a href="http://unsplash.com">Unsplash</a></li>
 					</ul>
 				</footer>
 			</section>
