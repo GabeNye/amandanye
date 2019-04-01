@@ -1,5 +1,9 @@
+# force apex domain
 RewriteEngine On
 RewriteCond %{HTTP_HOST} !^amandnye.com$ [NC]
 RewriteRule ^(.*)$ http://amandanye.com/$1 [L,R=301]
 
-DirectoryIndex under_construction.html
+# under construction
+RewriteEngine On
+RewriteCond %{REQUEST_URI} !^/under_construction.html$ [NC]
+RewriteRule ^(.*)$ /under_construction.html [R=302,L]
