@@ -140,35 +140,35 @@
 			});
 
 	// Main sections.
-		$('.main').each(function() {
+		// $('.main').each(function() {
 
-			var $this = $(this),
-				$primaryImg = $this.find('.image.primary > img'),
-				$bg,
-				options;
+		// 	var $this = $(this),
+		// 		$primaryImg = $this.find('.image.primary > img'),
+		// 		$bg,
+		// 		options;
 
-			// No primary image? Bail.
-				if ($primaryImg.length == 0)
-					return;
+		// 	// No primary image? Bail.
+		// 		if ($primaryImg.length == 0)
+		// 			return;
 
-			// Create bg and append it to body.
-				$bg = $('<div class="main-bg" id="' + $this.attr('id') + '-bg"></div>')
-					.css('background-image', (
-						'url("assets/css/images/overlay.png"), url("' + $primaryImg.attr('src') + '")'
-					))
-					.appendTo($body);
+		// 	// Create bg and append it to body.
+		// 		$bg = $('<div class="main-bg" id="' + $this.attr('id') + '-bg"></div>')
+		// 			.css('background-image', (
+		// 				'url("assets/css/images/overlay.png"), url("' + $primaryImg.attr('src') + '")'
+		// 			))
+		// 			.appendTo($body);
 
-			// Scrollex.
-				$this.scrollex({
-					mode: 'middle',
-					delay: 200,
-					top: '-10vh',
-					bottom: '-10vh',
-					init: function() { $bg.removeClass('active'); },
-					enter: function() { $bg.addClass('active'); },
-					leave: function() { $bg.removeClass('active'); }
-				});
+		// 	// Scrollex.
+		// 		$this.scrollex({
+		// 			mode: 'middle',
+		// 			delay: 200,
+		// 			top: '-10vh',
+		// 			bottom: '-10vh',
+		// 			init: function() { $bg.removeClass('active'); },
+		// 			enter: function() { $bg.addClass('active'); },
+		// 			leave: function() { $bg.removeClass('active'); }
+		// 		});
 
-		});
+		// });
 
 })(jQuery);
