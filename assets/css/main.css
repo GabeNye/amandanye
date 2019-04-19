@@ -2885,6 +2885,21 @@ input, select, textarea {
 						padding-left: 0;
 					}
 
+					#footer footer .copyright li:last-child {
+						border-left: 0;
+					}
+
+						#footer footer .copyright li:last-child a {
+							border-bottom: none;
+							margin-bottom: -18px;
+							opacity: .5;
+							transition: opacity .2s ease-in-out;
+						}
+
+							#footer footer .copyright li:last-child a:hover {
+							opacity: 1;
+						}
+
 /* Large */
 
 	@media screen and (max-width: 1680px) {
@@ -3122,5 +3137,8 @@ input, select, textarea {
 					margin: 0;
 					padding: 0;
 				}
+					#footer footer .copyright li:last-child a {
+						margin: 5px auto;
+					}
 
 	}
